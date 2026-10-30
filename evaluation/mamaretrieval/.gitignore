@@ -1,0 +1,14 @@
+# Raw benchmark data -- NOT redistributed per MamaRetrieval Research-Only License v1
+raw/*.jsonl
+raw/*.parquet
+raw/*.csv
+corpus/
+queries/
+qrels/
+results/
+# Retain: reports, scripts, README, schema metadata
+!reports/
+!scripts/
+!README.md
+!processed/schema_report.txt
+!processed/download_failure_report.txt

@@ -1,0 +1,29 @@
+﻿Metric,Value
+Benchmark,MAMARetrieval v0.1.0
+Embedding,TF-hash bag-of-words 768-dim L2-normalized
+Vector Store,SimpleVectorStore (cosine similarity)
+Top-K,4
+Similarity Threshold,0.10
+,,
+Dataset Status,NOT LOADED (HuggingFace authentication required)
+Total Queries,N/A
+Safety Blocked,N/A
+Allowed Queries,N/A
+Retrieval Success,N/A
+No-Context / Abstention,N/A
+Errors,N/A
+,,
+Hit@1,N/A
+Hit@4,N/A
+MRR,N/A
+Recall@1,N/A
+Recall@4,N/A
+Precision@1,N/A
+Precision@4,N/A
+,,
+Mean Retrieval Latency (ms),N/A
+Median Retrieval Latency (ms),N/A
+P95 Retrieval Latency (ms),N/A
+Generation Evaluated,No (LLM API unavailable)
+,,
+Note,All metrics are N/A because nmrenyi/mamaretrieval requires HuggingFace authentication. No values fabricated.

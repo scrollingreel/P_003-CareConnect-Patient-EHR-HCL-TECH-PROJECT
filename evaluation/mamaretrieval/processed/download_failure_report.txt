@@ -1,0 +1,20 @@
+MAMARetrieval Download Failure Report
+=====================================
+Time: 2026-09-06T23:32:55
+Error: Dataset could not be loaded from HuggingFace.
+
+The dataset is at: https://huggingface.co/datasets/nmrenyi/mamaretrieval
+License: Research use only.
+
+To access:
+1. Create HuggingFace account
+2. Accept dataset terms on the dataset page
+3. Run: huggingface-cli login
+4. Re-run: python scripts/01_download_benchmark.py
+
+Known stats (from README):
+- 3,185 queries (all per_chunk type)
+- 78,571 (query, chunk) relevance labels
+- Corpus: 63,650 chunks from 19 clinical guideline sources
+- Domains: midwifery, obstetrics, neonatal care
+- Relevance: D1x(D2+D3) in {0,1,2}

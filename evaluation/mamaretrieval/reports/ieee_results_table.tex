@@ -1,0 +1,50 @@
+﻿\begin{table}[t]
+\centering
+\caption{Retrieval Performance on the MAMARetrieval Benchmark (v0.1.0)}
+\label{tab:mamaretrieval}
+\begin{tabular}{lc}
+\hline
+\textbf{Metric} & \textbf{Value} \\
+\hline
+\multicolumn{2}{l}{\textit{Retrieval Configuration}} \\
+Embedding & TF-hash 768-dim (L2-norm.) \\
+Vector Store & SimpleVectorStore (cosine) \\
+Top-$K$ & 4 \\
+Similarity Threshold & 0.10 \\
+\hline
+\multicolumn{2}{l}{\textit{Query Statistics}} \\
+Total Queries & \textemdash \\
+Safety Blocked & \textemdash \\
+Evaluated & \textemdash \\
+\hline
+\multicolumn{2}{l}{\textit{Retrieval Metrics}} \\
+Hit@1 & \textemdash \\
+Hit@4 & \textemdash \\
+MRR & \textemdash \\
+Recall@1 & \textemdash \\
+Recall@4 & \textemdash \\
+Precision@1 & \textemdash \\
+Precision@4 & \textemdash \\
+\hline
+\multicolumn{2}{l}{\textit{Latency}} \\
+Mean Retrieval (ms) & \textemdash \\
+Median Retrieval (ms) & \textemdash \\
+P95 Retrieval (ms) & \textemdash \\
+\hline
+\multicolumn{2}{l}{\textit{Generation}} \\
+Generation Evaluated & No \\
+\hline
+\multicolumn{2}{p{0.9\columnwidth}}{\small \textemdash\ indicates value not computed:
+dataset \texttt{nmrenyi/mamaretrieval} requires HuggingFace authentication.
+No metrics fabricated. Framework fully implemented; values will populate
+upon authenticated dataset access.} \\
+\end{tabular}
+\vspace{4pt}
+\begin{tablenotes}
+  \small
+  \item Embedding: TF-hash bag-of-words (768-dim), not a semantic model.
+  \item MAMARetrieval is an external benchmark (midwifery/OBGYN domain).
+  \item License: MamaRetrieval Research-Only License v1.
+  \item Results do not constitute clinical validation.
+\end{tablenotes}
+\end{table}

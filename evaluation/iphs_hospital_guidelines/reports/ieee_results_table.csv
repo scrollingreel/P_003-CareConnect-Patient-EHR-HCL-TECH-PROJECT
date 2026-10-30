@@ -1,0 +1,22 @@
+Metric,Value
+Corpus,"IPHS 2022 Guidelines (MoHFW, Govt of India)"
+Corpus Chunks,487
+Embedding Representation,768-dimensional TF-Hash (Bag-of-Words)
+Vector Store,SimpleVectorStore (Cosine Similarity)
+Top-K,4
+Similarity Threshold,0.1
+Total Queries,60
+Safety-Blocked Queries,12
+Evaluated Queries,48
+No-Context Queries,0
+Execution Errors,0
+Recall@1,10.42%
+Recall@4,27.08%
+Precision@1,10.42%
+Precision@4,8.33%
+MRR,0.1649
+Hit@1,10.42%
+Hit@4,27.08%
+Mean Retrieval Latency (ms),77.40
+Median Retrieval Latency (ms),59.75
+P95 Retrieval Latency (ms),97.21

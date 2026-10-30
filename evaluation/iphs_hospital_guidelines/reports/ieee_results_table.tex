@@ -1,0 +1,45 @@
+\begin{table}[t]
+\centering
+\caption{Retrieval Performance on Official Indian Hospital Guidelines (IPHS 2022)}
+\label{tab:iphs_retrieval}
+\begin{tabular}{lc}
+\hline
+\textbf{Evaluation Metric / Parameter} & \textbf{Value} \\
+\hline
+\multicolumn{2}{l}{\textit{System Configuration}} \\
+Corpus & IPHS 2022 District Hospital Guidelines \\
+Corpus Chunks Indexed & 487 \\
+Representation & 768-dim TF-Hash ($L_2$-norm) \\
+Vector Matching & In-Memory Cosine Similarity \\
+Retrieval Depth ($K$) & 4 \\
+Similarity Threshold ($\tau$) & 0.1 \\
+\hline
+\multicolumn{2}{l}{\textit{Query Distribution}} \\
+Total Evaluation Queries & 60 \\
+Safety-Blocked Queries & 12 \\
+Evaluated Operational Queries & 48 \\
+No-Context Queries & 0 \\
+Execution Errors & 0 \\
+\hline
+\multicolumn{2}{l}{\textit{Primary Retrieval Effectiveness}} \\
+Recall@1 & 10.42\% \\
+Recall@4 & 27.08\% \\
+Precision@1 & 10.42\% \\
+Precision@4 & 8.33\% \\
+Mean Reciprocal Rank (MRR) & 0.1649 \\
+Hit@1 & 10.42\% \\
+Hit@4 & 27.08\% \\
+\hline
+\multicolumn{2}{l}{\textit{Measured Retrieval Latency}} \\
+Mean Latency & 77.40 ms \\
+Median Latency & 59.75 ms \\
+P95 Latency & 97.21 ms \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\small
+\item Values represent actual executed queries and measured latencies.
+\item Evaluated against official Indian Public Health Standards without data contamination.
+\item Ground-truth relevance judgments were strictly isolated from retrieval operations.
+\end{tablenotes}
+\end{table}

@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: apexcare-pgvector
+    environment:
+      POSTGRES_DB: hospital_rag
+      POSTGRES_USER: hospital_rag
+      POSTGRES_PASSWORD: change-me
+    ports:
+      - "5432:5432"
+    volumes:
+      - hospital-rag-postgres:/var/lib/postgresql/data
+
+volumes:
+  hospital-rag-postgres:
