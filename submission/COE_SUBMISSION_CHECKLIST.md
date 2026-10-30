@@ -4,6 +4,12 @@
 **Project Code:** EHRS01  
 **Target Domain:** Healthcare and Pharma  
 **Target Program:** Academic Center of Excellence (COE) / Healthcare Practice  
+**Author / Student Name:** Utkarsh Gupta  
+**Roll Number:** 2300320150065  
+**Branch:** Computer Engineering  
+**College / Institution:** ABES ENGINEERING COLLEGE GHAZIABAD UTTAR PRADESH  
+**College Email ID:** utkarsh.23b0151019@abes.ac.in  
+**Official GitHub Repository:** [https://github.com/scrollingreel/P_003-CareConnect-Patient-EHR-HCL-TECH-PROJECT](https://github.com/scrollingreel/P_003-CareConnect-Patient-EHR-HCL-TECH-PROJECT)  
 **Final Submission Deadline:** 1 November 2026, 6:00 PM IST  
 **Audit Completion Date:** 31 October 2026  
 **Final Quality Gate:** PASS (100% Automated Test Pass Rate, Zero Regressions, Complete Documentation Artifacts)
@@ -143,7 +149,7 @@ All deliverables are verified and reside in the `submission/` directory:
 
 ## 7. Outstanding Manual Actions
 
-The project software and documentation are 100% complete and self-contained. The only remaining manual steps for the candidate prior to final submission are:
+The project software, documentation, and candidate metadata are 100% complete and self-contained:
 
-1. **Student Details Customization (Optional):** If submitting under specific student university credentials, open `CareConnect_Project_Synopsis.docx` and replace the placeholder fields `[Candidate Name]` and `[Academic Registration ID]` on the cover page.
+1. **Student Personalization:** Fully personalized across all deliverables for **Utkarsh Gupta (Roll No: 2300320150065, Computer Engineering, ABES ENGINEERING COLLEGE GHAZIABAD UTTAR PRADESH)**.
 2. **Academic Archive Packaging:** Compress the entire `submission/` folder into `CareConnect_EHRS01_COE_Submission.zip` for final upload to the academic evaluation portal prior to the **1 November 2026, 6:00 PM IST** deadline.

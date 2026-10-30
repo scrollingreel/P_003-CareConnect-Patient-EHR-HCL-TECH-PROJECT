@@ -11,6 +11,11 @@
 > **Official Repository:** [https://github.com/scrollingreel/P_003-CareConnect-Patient-EHR-HCL-TECH-PROJECT](https://github.com/scrollingreel/P_003-CareConnect-Patient-EHR-HCL-TECH-PROJECT)  
 > **Project Code:** `EHRS01`  
 > **Domain:** Healthcare and Pharma  
+> **Author / Student Name:** Utkarsh Gupta  
+> **Roll Number:** 2300320150065  
+> **Branch:** Computer Engineering  
+> **College / Institution:** ABES ENGINEERING COLLEGE GHAZIABAD UTTAR PRADESH  
+> **College Email ID:** utkarsh.23b0151019@abes.ac.in  
 > **Evaluation Sponsoring Entity:** Academic Center of Excellence (COE) / HCL Healthcare Technologies Practice  
 > **Methodology:** Agile / Scrum (4 Sprints)
 
